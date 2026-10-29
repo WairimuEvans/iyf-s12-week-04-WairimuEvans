@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JavaScript calculator and student grade tracker project.">
+    <title>JavaScript Calculator &amp; Grade Tracker</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Practice</h1>
+        <p>Calculator and Student Grade Tracker</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="tracker-heading">
+            <h2 id="tracker-heading">Student Grade Tracker</h2>
+
+            <h3>Add a Student</h3>
+
+            <form id="student-form">
+                <p>
+                    <label for="new-student-name">Student name:</label>
+                    <input
+                        type="text"
+                        id="new-student-name"
+                        placeholder="Enter student name"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="new-student-score">Student score (0–100):</label>
+                    <input
+                        type="number"
+                        id="new-student-score"
+                        min="0"
+                        max="100"
+                        step="any"
+                        placeholder="Enter score"
+                        required
+                    >
+                </p>
+
+                <button type="submit">Add Student</button>
+            </form>
+
+            <p id="add-student-message" aria-live="polite"></p>
+
+            <button type="button" id="show-students">Show Students</button>
+
+            <ul id="student-list"></ul>
+
+            <p id="class-average">Class average: Not calculated</p>
+            <p id="top-student">Top student: Not calculated</p>
+        </section>
+
+        <section aria-labelledby="calculator-heading">
+            <h2 id="calculator-heading">Calculator</h2>
+
+            <form id="calculator-form">
+                <p>
+                    <label for="number-one">First number:</label>
+                    <input
+                        type="number"
+                        id="number-one"
+                        step="any"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="operator">Operation:</label>
+                    <select id="operator">
+                        <option value="+">Addition (+)</option>
+                        <option value="-">Subtraction (-)</option>
+                        <option value="*">Multiplication (*)</option>
+                        <option value="/">Division (/)</option>
+                        <option value="%">Remainder (%)</option>
+                        <option value="**">Power (**)</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="number-two">Second number:</label>
+                    <input
+                        type="number"
+                        id="number-two"
+                        step="any"
+                        required
+                    >
+                </p>
+
+                <button type="submit">Calculate</button>
+            </form>
+
+            <p id="calculator-result" aria-live="polite">
+                Result will appear here.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Week 4 JavaScript Fundamentals Project</p>
+    </footer>
+</body>
+</html>
