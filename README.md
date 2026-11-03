@@ -25,9 +25,11 @@ This project demonstrates JavaScript fundamentals, data manipulation, and intera
 - JavaScript
 
 ## How to Run
-1. Open `index.html` using VS Code Live Server.
-2. Use the calculator to perform calculations.
-3. Use the student tracker to view and add student records.
+1. Use the calculator to perform calculations.
+2. Use the student tracker to view and add student records.
+
+##Live DEMO
+[View Live Page](https://wairimuevans.github.io/iyf-s12-week-04-WairimuEvans/)
 
 ## Learning Outcomes
 - Variables, data types, operators, and functions
