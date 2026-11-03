@@ -28,7 +28,7 @@ This project demonstrates JavaScript fundamentals, data manipulation, and intera
 1. Use the calculator to perform calculations.
 2. Use the student tracker to view and add student records.
 
-##Live DEMO
+## Live DEMO
 [View Live Page](https://wairimuevans.github.io/iyf-s12-week-04-WairimuEvans/)
 
 ## Learning Outcomes
